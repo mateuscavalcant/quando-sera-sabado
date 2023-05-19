@@ -43,7 +43,7 @@ func obterNomeMesEmPortugues(m time.Month) string {
 }
 
 func main() {
-	fmt.Println("- Quando será sabádo?")
+	fmt.Println("- Quando será sábado?")
 	hoje := time.Now().Weekday()
 	switch time.Saturday {
 	case hoje + 0:
